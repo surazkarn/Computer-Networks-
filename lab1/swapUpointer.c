@@ -26,3 +26,25 @@ void swap(int *x, int *y)
     *x   = *y;  
     *y   = temp;  
 }  
+
+/*
+
+#include<stdio.h>
+int main(){
+    int *a,*b,x,y;
+    printf("Enter a:");
+    scanf("%d",&x);
+    printf("Enter b:");
+    scanf("%d",&y);
+    a=&x;
+    b=&y;
+    printf("The value before swapping:\na=%d,b=%d\n",*a,*b);
+    int temp;
+    temp=*a;
+    *a=*b;
+    *b=temp;
+    printf("The value after swapping:\na=%d,b=%d\n",*a,*b);
+    return 0;
+}
+
+*/
