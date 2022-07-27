@@ -16,7 +16,7 @@ a=(value&0xFF);
 b=((value>>8)&0xFF);
 c=((value>>16)&0xFF);
 d=((value>>24)&0xFF);
-
+//>> right shift
 
 //%02x means print at least 2 digits
 printf("a= %02X\n",a);
